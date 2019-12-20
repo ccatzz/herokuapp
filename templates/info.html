@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>{% block title &}{% endblock %}</title>
+    <title>{{ titolo  }}</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -47,14 +47,18 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-      {% block nvbar %}
-      {% endblock %}
+      <h3 class="masthead-brand">Piastrelle.py</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link" href="7">Home</a>
+        <a class="nav-link active" href="/info">Info</a>
+      </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-   {% block content %}
-   {% endblock %}
+    <h1 class="cover-heading">{{ titolo }}</h1>
+    <p class="lead">{{ testo }}</p>
+    <p class="lead">
   </main>
 
   <footer class="mastfoot mt-auto">

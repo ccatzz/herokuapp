@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+
+{% blocktitile &}{{ titolo }}{% endblock %}
+
+{% block navbar %}
+      <h3 class="masthead-brand">Piastrelle.py</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="7">Home</a>
+        <a class="nav-link" href="/info">Info</a>
+      </nav>
+{% endblock %}
+
+{% block content %}
+    <h1 class="cover-heading">{{ titolo }}</h1>
+    <p class="lead">{{ testo }}</p>
+    <p class="lead">
+      <a href="/info" class="btn btn-lg btn-secondary">{{ bottone }}</a>
+    </p>
+{% endblock %}
