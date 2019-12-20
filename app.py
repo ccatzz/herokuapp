@@ -15,7 +15,6 @@ def index():
 def info():
     titolo="Pagina Info"
     bottone="Homepage"
-    testo="Hello World"
     testo="Informazioni"
     return render_template("base.html", 
         titolo=titolo,
