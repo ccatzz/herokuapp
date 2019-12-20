@@ -1,3 +1,5 @@
 # Applicazione Flask configurata su Heroku #
 
-Vai all'[applicazione](https://floating-sands-18281.herokuapp.com/).
+wAIT, tHATS iS iLLEGAl?!
+
+Vai all'[applicazione](https://piastrellasimulator.herokuapp.com/).
