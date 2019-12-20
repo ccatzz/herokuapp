@@ -7,7 +7,7 @@ def index():
 
 @app.route('/info')
 def info():
-    return "Sconti su tutti i modelli $-$"
+    return "Sconti su tutti i modelli. $-$"
 
 if __name__ == '__main__':
     app.run()
