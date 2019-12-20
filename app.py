@@ -14,7 +14,6 @@ def index():
 @app.route('/info')
 def info():
     titolo="Pagina Info"
-    bottone="Homepage"
     testo="Informazioni"
     return render_template("info.html", 
         titolo=titolo,
